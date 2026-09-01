@@ -1,0 +1,22 @@
+.about__inner {
+  max-width: 760px;
+}
+
+.about__paragraph {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-muted);
+  margin-top: 24px;
+}
+
+.about__paragraph:first-of-type {
+  margin-top: 32px;
+  color: var(--color-text);
+}
+
+@media (min-width: 641px) {
+  .about__paragraph {
+    font-size: 1.75rem;
+  }
+}

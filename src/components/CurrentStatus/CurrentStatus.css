@@ -1,0 +1,39 @@
+.status__grid {
+  display: grid;
+  gap: 64px;
+}
+
+.status__heading {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--color-muted);
+  margin-bottom: 24px;
+}
+
+.status__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.status__tag {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 18px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  color: var(--color-text);
+}
+
+.status__tag--accent {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+@media (min-width: 641px) {
+  .status__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+  }
+}

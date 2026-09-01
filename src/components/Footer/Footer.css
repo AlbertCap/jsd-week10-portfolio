@@ -1,0 +1,32 @@
+.footer {
+  padding-block: 40px;
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__logo {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.footer__copy {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+.footer__note {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+@media (min-width: 641px) {
+  .footer__inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

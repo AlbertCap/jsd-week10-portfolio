@@ -1,0 +1,32 @@
+.tech-stack__grid {
+  display: grid;
+  gap: 40px;
+}
+
+.tech-stack__label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: 16px;
+}
+
+.tech-stack__item {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-block: 6px;
+}
+
+@media (min-width: 641px) {
+  .tech-stack__grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .tech-stack__grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
