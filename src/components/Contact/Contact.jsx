@@ -6,7 +6,7 @@ const EMAIL = 'albert.phonbut@gmail.com'
 
 const links = [
   { label: 'GitHub', href: 'https://github.com/AlbertCap' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/feed/' },
+  { label: 'LinkedIn', href: 'www.linkedin.com/in/albert-phonbut' },
 ]
 
 function CopyIcon() {
